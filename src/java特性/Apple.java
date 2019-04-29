@@ -6,6 +6,7 @@ public class Apple {
 	
 	public Apple(String color ,double weight) {
 		this.color = color;
+		this.weight = weight;
 		
 	}
 	public void setcolor(String color) {
@@ -22,6 +23,6 @@ public class Apple {
 	}
 	@Override
 	public String toString() {
-		return "Apple{"+"color="+color+",weight="+weight+"}";
+		return "Apple{"+"color="+color+",weight="+ weight+"kg}";
 	}
 }
